@@ -24,7 +24,10 @@ func TestGreet(t *testing.T) {
 			lang: "el",
 			want: "Χαίρετε Κόσμε",
 		},
-
+		"Urdu": {
+			lang: "ur",
+			want: "ur": " ہیلو دنیا ",       // Urdu
+		},
 		"Empty": {
 			lang: "",
 			want: `unsupported language: ""`,
