@@ -10,8 +10,9 @@ var (
 	oryxAndCrake  = Book{Author: "Margaret Atwood", Title: "Oryx and Crake"}
 	theBellJar    = Book{Author: "Sylvia Plath", Title: "The Bell Jar"}
 	janeEyre      = Book{Author: "Charlotte Brontë", Title: "Jane Eyre"}
+	villette      = Book{Author: "Charlotte Brontë", Title: "Villette"}
+	ilPrincipe    = Book{Author: "Niccolò Machiavelli", Title: "Il Principe"}
 )
-
 type testCase struct {
 	bookwormsFile string
 	want          []Bookworm

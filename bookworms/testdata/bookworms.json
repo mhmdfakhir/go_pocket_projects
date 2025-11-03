@@ -28,5 +28,115 @@
                 "title": "Jane Eyre"
             }
         ]
+    },
+    {
+        "name": "Sarah",
+        "books": [
+            {
+                "author": "Harper Lee",
+                "title": "To Kill a Mockingbird"
+            },
+            {
+                "author": "George Orwell",
+                "title": "1984"
+            },
+            {
+                "author": "Margaret Atwood",
+                "title": "The Handmaid's Tale"
+            }
+        ]
+    },
+    {
+        "name": "John",
+        "books": [
+            {
+                "author": "J.K. Rowling",
+                "title": "Harry Potter and the Philosopher's Stone"
+            },
+            {
+                "author": "J.R.R. Tolkien",
+                "title": "The Hobbit"
+            },
+            {
+                "author": "C.S. Lewis",
+                "title": "The Chronicles of Narnia"
+            }
+        ]
+    },
+    {
+        "name": "Nina",
+        "books": [
+            {
+                "author": "Toni Morrison",
+                "title": "Beloved"
+            },
+            {
+                "author": "Zadie Smith",
+                "title": "White Teeth"
+            },
+            {
+                "author": "George Orwell",
+                "title": "Animal Farm"
+            },
+            {
+                "author": "Margaret Atwood",
+                "title": "The Blind Assassin"
+            }
+        ]
+    },
+    {
+        "name": "Mark",
+        "books": [
+            {
+                "author": "Stephen King",
+                "title": "The Shining"
+            },
+            {
+                "author": "Agatha Christie",
+                "title": "Murder on the Orient Express"
+            },
+            {
+                "author": "Margaret Atwood",
+                "title": "The Handmaid's Tale"
+            }
+        ]
+    },
+    {
+        "name": "Ali",
+        "books": [
+            {
+                "author": "Gabriel Garcia Marquez",
+                "title": "One Hundred Years of Solitude"
+            },
+            {
+                "author": "Kazuo Ishiguro",
+                "title": "Never Let Me Go"
+            },
+            {
+                "author": "Murakami Haruki",
+                "title": "Norwegian Wood"
+            },
+            {
+                "author": "Toni Morrison",
+                "title": "Song of Solomon"
+            }
+        ]
+    },
+    {
+        "name": "Emily",
+        "books": [
+            {
+                "author": "Victor Hugo",
+                "title": "Les Misérables"
+            },
+            {
+                "author": "Mark Twain",
+                "title": "The Adventures of Huckleberry Finn"
+            },
+            {
+                "author": "George Orwell",
+                "title": "1984"
+            }
+        ]
     }
 ]
