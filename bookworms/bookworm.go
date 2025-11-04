@@ -49,6 +49,10 @@ func loadBookworms(filePath string) ([]Bookworm, error) {
 	decoder := json.NewDecoder(bufferedReader)
 	err = decoder.Decode(&bookworms)
 
+	if err != nil {
+		panic(err)
+	}
+
 	return bookworms, nil
 }
 

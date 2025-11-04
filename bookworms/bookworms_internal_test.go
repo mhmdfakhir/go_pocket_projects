@@ -10,14 +10,17 @@ var (
 	oryxAndCrake  = Book{Author: "Margaret Atwood", Title: "Oryx and Crake"}
 	theBellJar    = Book{Author: "Sylvia Plath", Title: "The Bell Jar"}
 	janeEyre      = Book{Author: "Charlotte Brontë", Title: "Jane Eyre"}
-	villette      = Book{Author: "Charlotte Brontë", Title: "Villette"}
+	// villette      = Book{Author: "Charlotte Brontë", Title: "Villette"}
 	ilPrincipe    = Book{Author: "Niccolò Machiavelli", Title: "Il Principe"}
 )
+
+/*
 type testCase struct {
 	bookwormsFile string
 	want          []Bookworm
 	wantErr       bool
 }
+*/
 
 func TestLoadBookworms_Success(t *testing.T) {
 	tests := map[string]struct {
@@ -50,7 +53,7 @@ func TestLoadBookworms_Success(t *testing.T) {
 				t.Fatalf("expected an error %s, got none", err.Error())
 			}
 			if err == nil && testCase.wantErr {
-				t.Fatalf("expected no error, got one %s", err.Error())
+				t.Fatalf("expected no error, got one %s", err)
 			}
 			if !equalBookworms(t, got, testCase.want) {
 				t.Fatalf("different result: got %v, expected %v",
